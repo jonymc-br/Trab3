@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="esquerda"><a href="/index.html">Justiça & Cia</a></div>
+        <ul>
+          <li><a href="/serviços.html">Serviços</a></li>
+          <li><a href="/sobre.html">Sobre</a></li>
+          <li><a href="/time.html">Time</a></li>
+          <li><a href="/contato.html">Contato</a></li>
+          <li><a href="/trabalhe.html">Trabalhe</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <form action="" method="post" class="form-contato">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required />
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" required />
+          <label for="telefone">Telefone:</label>
+          <input type="tel" id="tel" name="telefone" required />
+          <label for="cidade">Cidade:</label>
+          <input type="text" id="cidade" name="cidade" required />
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+        <div id="endereco">
+          <h2>Endereço</h2>
+          <p>Insira o endereço aqui</p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3839.6761690885606!2d-122.43129728531559!3d37.77397297761745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085807a4b6b3f4f%3A0x1f9c2a6b4f6cb9c4!2sGolden+Gate+Bridge!5e0!3m2!1sen!2sus!4v1554894931262!5m2!1sen!2sus"
+            width="400"
+            height="300"
+            frameborder="0"
+            style="border: 0"
+            allowfullscreen
+          ></iframe>
+          <section class="trabalhe">
+            <div id="telefone">
+              <h2>Atendimento</h2>
+              <p>Tel:(34) 98889-9922</p>
+              <p>Tel:(34) 98889-9922</p>
+            </div>
+            <button class="trabalhe-conosco">trabalhe-conosco</button>
+          </section>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="contato">
+        <h4>Atendimento</h4>
+        <p>
+          <img src=img/telefone.png alt="Ícone de telefone" class="icon"> Número
+          de atendimento: (xx) xxxx-xxxx
+        </p>
+        <p>
+          <img src=img/whatsapp.png alt="Ícone de WhatsApp" class="icon">
+          WhatsApp: (34) 98899-9988
+        </p>
+        <p>Trabalhe conosco: <a href="#">Envie seu currículo</a></p>
+      </div>
+      <div class="escritorio">
+        <h4>Escritório</h4>
+        <p>
+          <img src=img/mapa.png alt="Ícone de endereço" class="icon"> Endereço:
+          Rua Exemplo, 123 - Bairro - Cidade/Estado - CEP: xxxxx-xxx
+        </p>
+      </div>
+      <div class="social">
+        <h4>Redes Sociais</h4>
+        <ul>
+          <li>
+            <a href="#"
+              ><img src=img/facebook.png alt="Ícone do Facebook"
+              class="icon"></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img src=img/instagram.png alt="Ícone do Instagram"
+              class="icon"></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img src=img/whatsapp.png alt="Ícone do Twitter" class="icon"></a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="/js/script.js"></script>
+  </body>
+</html>
